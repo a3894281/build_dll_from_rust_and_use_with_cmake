@@ -8,7 +8,7 @@ Here, main project is composed with CMake so it can be compiled on multi-platfor
 
 This is tested on Ubuntu-24.04.
 
-### 1. Install Rust
+#### 1. Install Rust
 
 Use this command to install RUST.
 
@@ -18,7 +18,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 For more detailed information, please refer [here](https://www.rust-lang.org/tools/install).
 
-### 2. Install cmake, make, g++
+#### 2. Install cmake, make, g++
 
 Use these commands to install.
 
@@ -59,5 +59,8 @@ cd build
 ./rust_dynamic_library
 ```
 
+## Add CI/CD pipeline
+
+To add the CI/CD pipeline, 
 
 Well Done!
