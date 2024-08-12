@@ -1,0 +1,17 @@
+[package]
+name = "dynamic_library"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[lib]
+name = "my_native_lib"
+crate-type = ["dylib"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
